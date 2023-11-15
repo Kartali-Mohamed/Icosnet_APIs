@@ -9,7 +9,8 @@ Welcome to the Icosnet API documentation. This API allows you to manage orders, 
 All endpoints in this API are relative to the base URL:
 
 ```plaintext
-http://127.0.0.1:8000/api/```
+http://127.0.0.1:8000/api/
+```
 
 
 ### Orders
@@ -46,6 +47,7 @@ http://127.0.0.1:8000/api/```
         }
     ]
 }
+```
 
 #### Read Order by Id
 
@@ -68,6 +70,7 @@ http://127.0.0.1:8000/api/```
         "user": 1
     }
 }
+```
 
 
 #### Create
@@ -84,11 +87,13 @@ http://127.0.0.1:8000/api/```
     "description": "this is the first order",
     "price": "200.00"
 }
+```
 - **Response**: 
 ```json
 {
     "detail": "Order create success"
 }
+```
 
 #### Update
 
@@ -105,6 +110,7 @@ http://127.0.0.1:8000/api/```
     "price": "200.00"
     "status": "Processing"
 }
+```
 - **Response**: 
 ```json
 {
@@ -119,6 +125,7 @@ http://127.0.0.1:8000/api/```
         "user": 1
     }
 }
+```
 
 #### Cancel
 
@@ -132,6 +139,7 @@ http://127.0.0.1:8000/api/```
 {
     "detail": "Cancel order is done"
 }
+```
 
 
 #### Search
@@ -159,3 +167,4 @@ http://127.0.0.1:8000/api/```
         "user": 1
     }
 }
+```
