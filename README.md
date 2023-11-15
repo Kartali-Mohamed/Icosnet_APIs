@@ -9,7 +9,7 @@ Welcome to the Icosnet API documentation. This API allows you to manage orders, 
 All endpoints in this API are relative to the base URL:
 
 ```plaintext
-http://127.0.0.1:8000/api/
+http://127.0.0.1:8000/api/```
 
 
 ### Orders
