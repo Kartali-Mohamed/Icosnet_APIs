@@ -147,12 +147,11 @@ http://127.0.0.1:8000/api/
 - **Endpoint**: `GET /search/order/`
 - **Description**: Search for orders based on title and page.
 - **Request**: 
-      - ***Method***: `GET`
-      - ***URL***: `http://127.0.0.1:8000/api/search/order/?page=1`
-
-      - ***Query Parameters***::
-            `title` (disabled): "First Order"
-            `page`: 1
+      - *Method*: `GET`
+      - *URL*: `http://127.0.0.1:8000/api/search/order/?page=1`
+      - *Query Parameters*:
+           - `title` (disabled): "First Order"
+           - `page`: 1
 - **Response**: 
 ```json
 {
