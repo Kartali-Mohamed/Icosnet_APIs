@@ -46,7 +46,7 @@ def get_orders(request):
     else:
         return Response({'detail': 'Success', 'data': serializer.data})
     
-
+# ************ Read an Order by Id ************
 @api_view(['GET'])
 def get_order_by_id(request, pk):
     order = get_object_or_404(Order, id=pk)
